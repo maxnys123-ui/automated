@@ -1,12 +1,16 @@
-// 13 Nov 2025: JavaScript ประกาศตัวแปร (var, const, let)
+// 20 Nov 2025: Data Types (string, number, boolean, null, undefined)
 
-const text = 'himax';
-var number = 5;
-let message = 'Hello World';
+const str = 'text';
+const num = 42;
+const bool = true;
+const nothing = null;
+const undef = undefined;
 
-console.log(text);
-console.log(number);
-console.log(message);
+console.log(typeof str);
+console.log(typeof num);
+console.log(typeof bool);
+console.log(typeof nothing);
+console.log(typeof undef);
 
 
 
