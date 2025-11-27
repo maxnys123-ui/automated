@@ -1,16 +1,25 @@
-// 20 Nov 2025: Data Types (string, number, boolean, null, undefined)
+// 27 Nov 2025: Operators (arithmetic, comparison, logical)
 
-const str = 'text';
-const num = 42;
-const bool = true;
-const nothing = null;
-const undef = undefined;
+// Arithmetic Operators
+const sum = 10 + 5;
+const difference = 10 - 5;
+const product = 10 * 5;
+const quotient = 10 / 5;
+const modulo = 10 % 3;
 
-console.log(typeof str);
-console.log(typeof num);
-console.log(typeof bool);
-console.log(typeof nothing);
-console.log(typeof undef);
+console.log('Sum:', sum);
+console.log('Difference:', difference);
+console.log('Product:', product);
+
+// Comparison Operators
+console.log(10 > 5);
+console.log(10 === 10);
+console.log(10 !== 5);
+
+// Logical Operators
+console.log(true && false);
+console.log(true || false);
+console.log(!true);
 
 
 
