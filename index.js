@@ -1,25 +1,22 @@
-// 27 Nov 2025: Operators (arithmetic, comparison, logical)
+// 4 Dec 2025: Conditional Statements (if, else, else if)
 
-// Arithmetic Operators
-const sum = 10 + 5;
-const difference = 10 - 5;
-const product = 10 * 5;
-const quotient = 10 / 5;
-const modulo = 10 % 3;
+const number = 5;
 
-console.log('Sum:', sum);
-console.log('Difference:', difference);
-console.log('Product:', product);
+if (number === 5) {
+    console.log('Number is Five');
+} else if (number > 5) {
+    console.log('Number is greater than Five');
+} else {
+    console.log('Number is less than Five');
+}
 
-// Comparison Operators
-console.log(10 > 5);
-console.log(10 === 10);
-console.log(10 !== 5);
-
-// Logical Operators
-console.log(true && false);
-console.log(true || false);
-console.log(!true);
+// More examples
+const age = 20;
+if (age >= 18) {
+    console.log('You are an adult');
+} else {
+    console.log('You are a minor');
+}
 
 
 
