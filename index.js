@@ -1,21 +1,29 @@
-// 4 Dec 2025: Conditional Statements (if, else, else if)
+// 16 Dec 2025: While Loop
 
-const number = 5;
+let number = 5;
 
-if (number === 5) {
-    console.log('Number is Five');
-} else if (number > 5) {
-    console.log('Number is greater than Five');
-} else {
-    console.log('Number is less than Five');
+// Simple while loop
+while (number > 0) {
+    console.log('Number:', number);
+    number--;
 }
 
-// More examples
-const age = 20;
-if (age >= 18) {
-    console.log('You are an adult');
-} else {
-    console.log('You are a minor');
+// While loop with condition
+let count = 0;
+while (count < 3) {
+    console.log('Count:', count);
+    count++;
+}
+
+// While loop with flag
+let running = true;
+let iteration = 0;
+while (running && iteration < 5) {
+    console.log('Iteration:', iteration);
+    iteration++;
+    if (iteration === 3) {
+        running = false;
+    }
 }
 
 
